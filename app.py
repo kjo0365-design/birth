@@ -102,18 +102,18 @@ html, body, [class*="css"] { font-family: 'Noto Sans KR', sans-serif; }
 
 /* ── 설이 section ── */
 .seol-card {
-  background: linear-gradient(135deg, #1a1a2e, #2d1b4e);
+  background: linear-gradient(135deg, #fff0f7, #fde8ff, #fff5e8);
   border-radius: 24px;
   padding: 1.6rem 1.8rem;
   text-align: center;
   margin: 1rem 0;
   position: relative;
   overflow: hidden;
-  border: 2px solid #3d2060;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+  border: 2.5px solid #ffb8d8;
+  box-shadow: 0 8px 32px rgba(255,127,170,.18);
 }
 .seol-card::before {
-  content: '🖤'; font-size: 5rem; opacity: 0.07;
+  content: '🐾'; font-size: 5rem; opacity: 0.08;
   position: absolute; top: -10px; right: -10px;
 }
 .seol-poodle {
@@ -129,15 +129,15 @@ html, body, [class*="css"] { font-family: 'Noto Sans KR', sans-serif; }
 .seol-name {
   font-family: 'Gaegu', cursive;
   font-size: 2rem;
-  color: #f0c8ff;
+  color: #c060a0;
   font-weight: 700;
   margin: 0.4rem 0 0.2rem;
-  text-shadow: 0 0 20px rgba(192,132,252,.5);
+  text-shadow: 1px 2px 0 #ffd6e7;
 }
 .seol-msg {
   font-family: 'Gaegu', cursive;
   font-size: 1.2rem;
-  color: #d4a8f8;
+  color: #a05070;
   line-height: 1.6;
 }
 
@@ -435,11 +435,11 @@ st.markdown(f"""
     <img src="data:image/svg+xml;base64,{seol_b64_big}"
          style="width:90px;height:100px;animation:seolWag 1.2s ease-in-out infinite alternate;"/>
     <div>
-      <div class="seol-name">🖤 설이 등장! 🖤</div>
+      <div class="seol-name">🐾 설이 등장! 🐾</div>
       <div class="seol-msg">
-        멍멍! 누나 생일 축하해요! 🐾<br>
+        멍멍! 누나 생일 축하해요! 🎀<br>
         설이가 제일 좋아하는 누나잖아요~<br>
-        오늘 하루 제일 예쁘고 행복하게 보내요! 🎀
+        오늘 하루 제일 예쁘고 행복하게 보내요! 🌸
       </div>
     </div>
     <img src="data:image/svg+xml;base64,{seol_b64_big}"
