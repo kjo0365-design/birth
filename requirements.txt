@@ -1,4 +1,4 @@
-streamlit==
-folium==
-streamlit-folium==
-Pillow==
+streamlit
+folium
+streamlit-folium
+Pillow
